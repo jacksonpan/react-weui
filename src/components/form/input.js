@@ -16,7 +16,6 @@ const Input = (props) => {
     return (
         <div>
             <input className={cls} {...others}/>
-            <span className="weui-icon-checked"></span>
         </div>
     );
 };
